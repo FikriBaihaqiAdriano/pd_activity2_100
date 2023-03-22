@@ -20,20 +20,24 @@ int main() {
 	int pilihan;
 
 
+	cout << "____________________" << endl;
+	cout << "______M E N U_______" << endl;
+	cout << "____________________" << endl;
+
+	cout << "1. Luas Persegipanjang" << endl;
+	cout << "2. Luas Segitiga" << endl;
+	cout << "3. Luas Lingkaran" << endl;
+	cout << "4. Exit" << endl;
+
+	cout << "Masukan pilihan : ";
+	cin >> pilihan;
+
+
+	system("cls");
 
 	do
 	{
-		cout << "\n\n____________________" << endl;
-		cout << "______M E N U_______" << endl;
-		cout << "____________________" << endl;
 
-		cout << "1. Luas Persegipanjang" << endl;
-		cout << "2. Luas Segitiga" << endl;
-		cout << "3. Luas Lingkaran" << endl;
-		cout << "4. Exit" << endl;
-
-		cout << "Masukan pilihan : ";
-		cin >> pilihan;
 
 		switch (pilihan)
 		{
