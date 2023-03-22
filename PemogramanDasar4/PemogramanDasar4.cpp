@@ -32,4 +32,43 @@ int main() {
 	cout << "Masukan pilihan : ";
 	cin >> pilihan;
 
+
+	system("cls");
+
+	do
+	{
+
+
+		switch (pilihan)
+		{
+		case 1:
+			cout << "Masukkan panjang : ";
+			cin >> panjang;
+			cout << "Masukkan lebar :";
+			cin >> lebar;
+			cout << "Luas persegipanjang = " << Luaspersegipanjang(panjang, lebar);
+			break;
+
+		case 2:
+			cout << "Masukkan alas : ";
+			cin >> alas;
+			cout << "Masukkan tinggi : ";
+			cin >> tinggi;
+			cout << "Luas Segitiga + " << Luassegitiga(alas, tinggi);
+			break;
+
+		case 3:
+			cout << "Masukkan Jari-jari : ";
+			cin >> jejari;
+			cout << "Luas Lingkaran = " << Luaslingkaran(jejari);
+			break;
+
+		case 4:
+
+			break;
+		default:
+			cout << "Pilihan anda salah!";
+			break;	
+		}
+	} while (pilihan != 4);
 }
